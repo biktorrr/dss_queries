@@ -1,0 +1,15 @@
+#+ summary:  Find all aanmonsteringen with last name X
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ 
+
+ SELECT * WHERE {
+  ?a mdb:schip ?s.
+  ?s mdb:scheepsnaam ?o.
+  ?pc mdb:has_aanmonstering ?a.
+  ?pc mdb:rang mdb:rang-schipper.
+  ?pc mdb:persoon ?pers.
+  ?pers mdb:achternaam "Boer".
+ }
+ LIMIT 10
