@@ -1,2 +1,6 @@
 #+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
-SELECT * WHERE {?s ?p ?o}
+SELECT * WHERE 
+  {
+    ?s rdf:type dss:Ship.
+	  ?s rdfs:label ?lab.
+  }
