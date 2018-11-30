@@ -3,8 +3,10 @@
 #+ tags: 
 #+   - metadata 
 
-SELECT ?graph (COUNT(*) AS ?triples) WHERE { 
-	GRAPH ?graph {
-		?s ?p ?o.
-	}
+SELECT * WHERE 
+{
+	?s rdf:type dss:Ship.
+	?s rdfs:label ?lab.
+	FILTER (str(?lab) = "Johanna")
 }
+LIMIT 10
