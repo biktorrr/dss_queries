@@ -1,0 +1,11 @@
+#+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
+#+ tags: 
+#+   - ships
+
+SELECT * WHERE 
+{
+?s rdf:type dss:Ship.
+?s rdfs:label ?lab.
+FILTER (str(?lab) = "Johanna")
+}
+LIMIT 10
