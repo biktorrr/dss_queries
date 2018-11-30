@@ -1,4 +1,5 @@
 #+ summary: Number of triples per graph
+#+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
 #+ tags: 
 #+   - metadata 
 
