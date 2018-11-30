@@ -1,1 +1,2 @@
+#+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
 SELECT * WHERE {?s ?p ?o}
