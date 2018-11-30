@@ -3,7 +3,7 @@
 #+ tags: 
 #+   - metadata 
 
-SELECT * WHERE 
+SELECT ?s ?lab WHERE 
 {
 	?s rdf:type dss:Ship.
 	?s rdfs:label ?lab.
