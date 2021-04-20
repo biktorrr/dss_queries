@@ -16,6 +16,6 @@ SELECT * WHERE {
 	?pc mdb:has_aanmonstering ?a.
 	?pc mdb:rang mdb:rang-schipper.
 	?pc mdb:persoon ?pers.
-	?pers mdb:achternaam _name.
+	?pers mdb:achternaam ?_name.
 }
 LIMIT 10
