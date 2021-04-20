@@ -3,6 +3,9 @@
 #+ tags: 
 #+   - test 
 
+PREFIX dss: 	<http://purl.org/collections/nl/dss/>
+PREFIX mdb:	<http://purl.org/collections/nl/dss/mdb/>
+
 SELECT ?s ?lab WHERE 
 {
 	?s rdf:type dss:Ship.
