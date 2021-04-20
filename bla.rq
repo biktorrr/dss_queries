@@ -1,6 +1,0 @@
-#+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
-SELECT * WHERE 
-  {
-    ?s rdf:type <http://purl.org/collections/nl/dss/gzmvoc/Schip>.
-	  ?s <http://purl.org/collections/nl/dss/gzmvoc/scheepsnaam> ?lab.
-  }

@@ -1,7 +1,7 @@
 #+ summary: test
 #+ endpoint: https://semanticweb.cs.vu.nl/dss/sparql
 #+ tags: 
-#+   - test 
+#+   - general 
 
 PREFIX dss: 	<http://purl.org/collections/nl/dss/>
 PREFIX mdb:	<http://purl.org/collections/nl/dss/mdb/>
